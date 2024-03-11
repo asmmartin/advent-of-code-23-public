@@ -1,0 +1,13 @@
+[build-system]
+requires = ['hatchling']
+build-backend = "hatchling.build"
+
+[project]
+name = "advent_of_code_23"
+version = "1.25.1"
+dependencies = [
+    "sympy",
+    "numpy",
+    "networkx",
+    "pytest"
+]
